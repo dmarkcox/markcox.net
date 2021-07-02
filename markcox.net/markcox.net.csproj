@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Views\Shared\footer.html" />
+    <Content Include="Views\Shared\header.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\scripts\jquery-3.1.1.min.js" />
     <None Include="wwwroot\scripts\site.js" />
   </ItemGroup>
