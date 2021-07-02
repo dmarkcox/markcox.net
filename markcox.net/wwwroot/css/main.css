@@ -196,16 +196,16 @@ html, body {
 	margin: 0; padding: 0;}
 
 body {
-	text-align: center;
-	font: 100% DroidSerif, Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	font:100% DroidSerif, Georgia, "Times New Roman", Times, serif;
 	background: #3C6B92;
-	background: -moz-linear-gradient(top, #3c6b92 15%, #e1d8b9 90%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#3c6b92), color-stop(90%,#e1d8b9));
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c6b92', endColorstr='#e1d8b9',GradientType=0 );
-	margin: 0;
+	background: -moz-linear-gradient(top, #3c6b92 15%, #e1d8b9 90%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#3c6b92), color-stop(90%,#e1d8b9)); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c6b92', endColorstr='#e1d8b9',GradientType=0 ); 
+	margin:0;
 }
 /* ^2 ------ global classes -------- */
-	.floatRight {
+.floatRight {
 	float: right;
 }
 .floatLeft {
@@ -261,7 +261,7 @@ span.accent {
 }
 
 .callOut {
-	/*background: #e1d8b9;*/
+	background: #e1d8b9;
 	padding: 25px;
 	margin-bottom: 25px;
 	-webkit-border-top-left-radius: 0px;
@@ -280,8 +280,7 @@ span.accent {
 }
 /* ^3 ------------- home page specfic layout styles ----------- */
 #home #wrapper {
-	/*background: #000 url(../images/home_page_back.jpg) no-repeat;*/
-	/*background: #000 url(../images/home-page-back.jpg) no-repeat top center;*/
+	background: #000 url(../images/home_page_back.jpg) no-repeat 0 100px;
 }
 #actionCall {
 	clear: both;
@@ -310,7 +309,7 @@ span.accent {
 #actionCall h2{
 	text-indent:-1000em;
 }
-#home #contentWrapper {
+#home #contentWrapper{
 	margin: 0 25px;
 	padding: 25px;
 	background: #fff;
@@ -395,7 +394,7 @@ span.accent {
 
 /* ^4 --------------------- base layout styles ------------------- */
 #wrapper {
-	position: relative;
+ 	position: relative;
 	padding: 0;
 	width: 1280px;
 	margin: 25px auto 0;
@@ -434,11 +433,11 @@ span.accent {
 #mainHeader a.logo:hover {
 	border: none;
 }
-#mainHeader a.logo {
+#mainHeader a.logo{
 	width: 192px;
 	height: 237px;
 	display: block;
-	background: url(../images/Pink-Flower-dmc.jpg) no-repeat;
+	background: url(../images/logo.gif) no-repeat;
 	position: absolute;
 	top: -25px;
 	left: 50px;
@@ -843,7 +842,7 @@ span.accent {
 	text-align: left;
 	padding: 0 10px;
 	line-height: 2.6em;
-	color: #fff;
+	color: #FFF;
 	background: #555;
 	border-bottom: 1px solid #000;
 }
@@ -868,7 +867,7 @@ span.accent {
 }
 /* form styling ^5f */
 #mainContent #mainArticle form p {
-	/*color: #193742;*/
+	color: #193742;
 	margin: 0 0 20px 20px;
 }
 #mainContent #mainArticle form p.subHead {
@@ -981,13 +980,13 @@ span.accent {
 #secondaryContent #specials h2 {
 	font-size: 1.2em;
 	font-family: DejaVuSansCond, Arial, sans-serif;
-	/*color: #193742;*/
+	color: #193742;
 	margin-bottom: 0;
 	border-top: 2px solid #999;
 	padding-top: 1em;
 	font-weight: normal;
 	clear: both;
-	letter-spacing: 1px;
+	letter-spacing:1px;
 }
 #secondaryContent #specials h2.top {
 	border:none;
@@ -1091,7 +1090,7 @@ span.accent {
 
 	/* ^3 ------------- home page specfic layout styles ----------- */
 	#home #wrapper {
-		/*background: #000 url(../images/home-page-back.jpg no-repeat top center;*/
+		background: #000 url(../images/home_page_back.jpg) no-repeat -50px 60px;
 	}
 	#actionCall {
 		height: 268px;
@@ -1561,7 +1560,7 @@ span.accent {
 	}
 	#mainContent .tourDescription h2 {
 		font-size: 1em;
-		/*color: #193742;*/
+		color: #193742;
 		font-weight: normal;
 		margin-bottom: .5em;
 		clear: right;
